@@ -1,8 +1,11 @@
 import styl from "./Section1.module.css";
-
+import img1 from '../../assets/Guru/frame41.png'
+import img2 from  '../../assets/Guru/rectangle6 (1).png'
 const Section1 = () => {
   return (
     <div className={styl.container}>
+    <img src={img1} className={styl.gr} style={{position:'absolute'}}></img>
+    <img src={img2} className={styl.gr} style={{position:'absolute'}}></img>
       <Step
         heading="Who is Guru?"
         paragraph="A Guru is an experienced person in any field for ex. photography, JEE , Business and much more. He/She doesn’t need any degree or qualification in any field to guide someone. Just experience is enough and good communication skills are plus."

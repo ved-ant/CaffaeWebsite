@@ -14,7 +14,7 @@ const HeroSection = () => {
           <span className={styl.one}> Become a Guru at Caffae </span>and empower
           numerous individuals to achieve their goals.
         </div>
-        <div className={styl.ctaButton}>Become a Guru</div>
+        <button className={styl.ctaButton}>Become a Guru</button>
       </div>
     </Fragment>
   );

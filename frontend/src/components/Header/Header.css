@@ -11,6 +11,7 @@
     display: flex;
     flex-wrap: wrap;
     flex: 0.8;
+    margin: 60px;
 }
 
 .header-left_desc-text {
@@ -44,6 +45,7 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 1.2px;
 margin-bottom: 5%;
+margin-top: 16%;
 }
 
 .header-other{

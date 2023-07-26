@@ -54,5 +54,10 @@
     {
         bottom: 10%;
     }
+
+    .gr
+    {
+      display: none;
+    }
   
 }

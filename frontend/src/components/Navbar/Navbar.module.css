@@ -1,62 +1,58 @@
-.ele
-{
-
-/* background: var(--gradient, linear-gradient(167deg, #331EFD 0%, #00D7FE 100%));
+.ele {
+  /* background: var(--gradient, linear-gradient(167deg, #331EFD 0%, #00D7FE 100%));
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent; */
 }
 
-
-.navl
-{
- display: flex;
- padding-left: 10%;
- justify-content: flex-start;
- width: 50%;
- align-items: center;
+.navl {
+  display: flex;
+  padding-left: 6.5%;
+  justify-content: flex-start;
+  width: 50%;
+  align-items: center;
 }
 
-.navr
-{
-    display: flex;
-    justify-content: space-around;
-    width: 50%;
-    align-items: center;
-    padding-right: 10%;
-    padding-left: 30%;
-    font-family: Helvetica;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-color: black;
+.navr {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  align-items: center;
+  padding-right: 10%;
+  padding-left: 30%;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .logocontainer {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    width: 100%;
-  }
-  
-  .logotext {
-    background: url(../../assets/Guru/caffaeraw-031.png);
-    width: 117.787px;
-    height: 38.98px;
-  }
-  
-  .logoimg {
-    background-image: url(../../assets/caffaeraw-041.png);
-    width: 59.507px;
-    height: 53.843px;
-  }
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+}
 
-  .nav{
-    display: flex;
-    height: 80px;
-    background: transparent;
-    backdrop-filter: blur(200px);
-    position: sticky;
-    top: 0px;
-  }
+.logotext {
+  background: url(../../assets/Guru/caffaeraw-031.png);
+  width: 117.787px;
+  height: 38.98px;
+}
+
+.logoimg {
+  background-image: url(../../assets/caffaeraw-041.png);
+  width: 59.507px;
+  height: 53.843px;
+}
+
+.nav {
+  display: flex;
+  height: 80px;
+  /* background: #f5f6fe; */
+  backdrop-filter: blur(100px);
+  position: sticky;
+  top: 0px;
+  margin-bottom: -100px;
+  z-index: 10;
+}

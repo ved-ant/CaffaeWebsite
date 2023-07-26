@@ -10,8 +10,7 @@ const Header = () => {
     <div className='header-left_desc-text'>
     <div className='header-desc_text-container'>
       <div className='header-logo'>
-    <img src={image4} className='header-logo-top' />  
-    <img src={image3} className='header-caffae-top' />
+   
       </div>
       <div className='header-title'>
       Discover, Learn, Connect
