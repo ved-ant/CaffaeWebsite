@@ -145,11 +145,13 @@ textarea:focus, input:focus {
 .footer-social_section-social_handles {
     display: flex;
     flex: 0.2;
-    margin: 0 2%;
+    margin: 0 3% 0 2%;
 }
 
 .footer-social_section-social_handles-handle {
     margin: 0 5%;
+    display: flex;
+    align-items: center;
 }
 
 .footer-social_section-mail {

@@ -1,0 +1,58 @@
+.container
+{
+    background-image: url(../../assets/Guru/rectangle12.png);
+    background-size: cover;
+    height: 1026px;
+    z-index: 2;
+    position: relative;
+    bottom: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.stylpara {
+    width: 40%;
+    height: 92px;
+    display: inline;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .stepwrap
+  {
+    width: 80%;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+@media screen and (max-width: 768px)
+{
+.stylpara
+{
+    width: 100%;
+}
+
+
+.container {
+       background-position: center; 
+       bottom: 90px;
+       height: 130vh;
+    }
+  
+    .stepwrap
+    {
+        bottom: 10%;
+    }
+  
+}

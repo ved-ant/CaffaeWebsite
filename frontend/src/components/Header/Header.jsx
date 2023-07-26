@@ -22,7 +22,7 @@ const Header = () => {
       </div>
     <div className='buttonheader'>
      <a href="#container"><button className='header-button'>Join our community</button></a> 
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZ0UaPRzYJddIc3ZIEE6oHrX_H1K7zaLocFNpCc9hjR_jkjA/viewform" target='_blank'><button className='header-buttontwo'>Get Personalised Guidance</button></a> </div>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZ0UaPRzYJddIc3ZIEE6oHrX_H1K7zaLocFNpCc9hjR_jkjA/viewform" target='_blank'><button className='header-buttontwo'>Contact Guru</button></a> </div>
     </div>
     </div>
     <div className='header-left_desc-image'>

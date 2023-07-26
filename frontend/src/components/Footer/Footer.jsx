@@ -4,6 +4,7 @@ import './Footer.css';
 import image1 from '../../assets/mention.png';
 import image2 from '../../assets/linkedin.png';
 import image3 from '../../assets/instagram.png';
+import yt from '../../assets/vector.png'
 
 const Footer = () => {
   const [contactForm, setContactForm] = useState({
@@ -53,6 +54,7 @@ const Footer = () => {
       <div className='footer-social_section'>
         <div className='footer-social_section-header'>Follow Us!</div>
         <div className='footer-social_section-social_handles'>
+          <a href="https://www.linkedin.com/company/caffae/" className='footer-social_section-social_handles-handle' target='_blank'><img src={yt} /></a>
           <a href="https://www.linkedin.com/company/caffae/" className='footer-social_section-social_handles-handle' target='_blank'><img src={image2} /></a>
           <a href="https://www.instagram.com/caffae.in/" className='footer-social_section-social_handles-handle' target='_blank'><img src={image3} /></a>
         </div>

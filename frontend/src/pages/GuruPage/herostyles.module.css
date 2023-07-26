@@ -1,0 +1,87 @@
+.herosection {
+  background-image: url(../../assets/Guru/rectangle11.png);
+  height: 100%;
+  background-size: cover;
+  padding: 3% 7% 0% 7%;
+  padding-bottom: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logocontainer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+}
+
+.logotext {
+  background: url(../../assets/Guru/caffaeraw-031.png);
+  width: 117.787px;
+  height: 38.98px;
+}
+
+.logoimg {
+  background-image: url(../../assets/caffaeraw-041.png);
+  width: 59.507px;
+  height: 53.843px;
+}
+
+.herotext {
+  color: #263045;
+  font-family: Helvetica;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 70%;
+  text-align: center;
+  margin-top: 13%;
+}
+
+.one {
+  color: #1f6cfd;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ctaButton {
+  width: 299px;
+  height: 77px;
+  flex-shrink: 0;
+  border-radius: 12.667px;
+  background: linear-gradient(90deg, #1f6cfd 0%, #8fecfe 100%);
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 31.667px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 768px){
+  .herosection
+  {
+    background-position: center; 
+    height: 85vh;
+  }
+
+  .herotext{
+    font-size: 2.4rem;
+    width: 95%;
+  }
+
+  .one{
+    font-size: 2.4rem;
+  }
+  
+}
