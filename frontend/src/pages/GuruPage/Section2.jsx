@@ -24,7 +24,7 @@ const Card = (props) => {
 
   const cardstyle = {
     width: '367px',
-    height: '525px',
+    height: '520px',
     borderRadius: '24px',
     background: '#FFF',
     boxShadow: '0px 4px 20px 0px rgba(0, 0, 0, 0.25)',

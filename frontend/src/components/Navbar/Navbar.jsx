@@ -12,13 +12,16 @@ const Navbar = () => {
       </div>
       <div className={styl.navr}>
         <Link to="/">
-          <ele >Home</ele>
+          <ele >HOME</ele>
         </Link>
         <Link to="/guru">
-          <ele >Guru</ele>
+          <ele >BECOME A GURU</ele>
         </Link>
         <Link to="/about">
-          <ele > About Us</ele>
+          <ele > ABOUT US</ele>
+        </Link>
+        <Link to="/about">
+          <ele > CONTACT US</ele>
         </Link>
       </div>
     </div>
