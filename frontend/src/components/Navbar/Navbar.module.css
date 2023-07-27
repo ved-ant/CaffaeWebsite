@@ -51,7 +51,6 @@ background-clip: text;
   height: 80px;
   /* background: #f5f6fe; */
   backdrop-filter: blur(100px);
-  position: sticky;
   top: 0px;
   margin-bottom: -100px;
   z-index: 10;
