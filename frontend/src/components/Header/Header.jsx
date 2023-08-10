@@ -9,9 +9,6 @@ const Header = () => {
     <div className="header-container">
     <div className='header-left_desc-text'>
     <div className='header-desc_text-container'>
-      <div className='header-logo'>
-   
-      </div>
       <div className='header-title'>
       Discover, Learn, Connect
       The <span className='header-other'>caffae</span> way! 
@@ -25,7 +22,7 @@ const Header = () => {
     </div>
     </div>
     <div className='header-left_desc-image'>
-      <img src={image1} className='header-left_desc-bg_ellipse' />
+    
       <img src={image2} className='header-left_desc-top_image' />
     </div>
   </div>
