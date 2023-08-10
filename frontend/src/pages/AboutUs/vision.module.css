@@ -1,0 +1,69 @@
+.parent {
+  display: flex;
+  padding: 1rem;
+  width: 1127px;
+  height: 360px;
+
+  justify-content: space-between;
+}
+
+.left {
+  width: 676px;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.right {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.profileBox
+{
+    width: 322px;
+height: 307px;
+border-radius: 20px 0px;
+background: linear-gradient(180deg, #F3F7FF 0%, #E8EFFF 100%);
+display: flex;
+}
+
+.profileCircle
+{
+    width: 97px;
+height: 97px;
+
+}
+
+h2{
+    color: #263045;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p
+{
+    color: #263045;
+font-family: Helvetica;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.textHighlight
+{
+    background: var(--gradient, linear-gradient(167deg, #331EFD 0%, #00D7FE 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

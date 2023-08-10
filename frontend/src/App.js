@@ -3,6 +3,7 @@ import Homepage from './pages/Homepage/Homepage';
 import GuruPage from './pages/GuruPage/GuruPage';
 import Navbar from './components/Navbar/Navbar';
 import AboutUs from './pages/AboutUs/AboutUs';
+
 function App() {
   return ( <>
   <Navbar></Navbar>
