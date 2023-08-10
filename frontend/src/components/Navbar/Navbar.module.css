@@ -20,10 +20,12 @@
   /* navbar */
   .navbar {
     background-color: aliceblue;
-    display: inline-flex;
-    padding: 16px 133px 16.157px 124px;
-    align-items:baseline;
-    gap: 428.706px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    min-height: 70px;
   }
   
   
@@ -98,6 +100,8 @@
       margin: 16px 0;
     }
   }
+
+
 
 .navLink{
   color: #000;
