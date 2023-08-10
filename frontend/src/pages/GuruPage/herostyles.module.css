@@ -9,24 +9,7 @@
   align-items: center;
 }
 
-.logocontainer {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  width: 100%;
-}
 
-.logotext {
-  background: url(../../assets/Guru/caffaeraw-031.png);
-  width: 117.787px;
-  height: 38.98px;
-}
-
-.logoimg {
-  background-image: url(../../assets/caffaeraw-041.png);
-  width: 59.507px;
-  height: 53.843px;
-}
 
 .herotext {
   color: #263045;
@@ -37,7 +20,7 @@
   line-height: normal;
   width: 70%;
   text-align: center;
-  margin-top: 13%;
+  margin-top: 5%;
 }
 
 .one {
