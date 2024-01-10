@@ -1,5 +1,6 @@
 .infocard {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   box-shadow: 0px 4px 40px 0px #00000029;
@@ -7,7 +8,8 @@
   border-radius: 20px;
   padding: 2rem 0;
   background: #EAEEF7;
-
+   gap:3.5rem;
+   margin: 5vh 0;
 }
 
 .infocardText {

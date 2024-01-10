@@ -8,6 +8,8 @@ import Googleform from '../../components/Googleform/Googleform';
 import LeftDesc from '../../components/LeftDesc/LeftDesc';
 import UserDescSection from '../../components/UserDescSection/UserDescSection';
 import GuruDescSection from '../../components/GuruDescSection/DescSection';
+import DescSection from "../../components/DescSection/DescSection";
+import DownloadInfocard from '../../components/Infocard/DownloadInfocard';
 
 const Homepage = () => {
   return (
@@ -15,9 +17,10 @@ const Homepage = () => {
         <Header />
         <LeftDesc title="Caffae is not just an app" text="It's your portal to a global community of shared expertise and inspiration. Our networking software unites individuals worldwide, facilitating connections that transcend distances. Whether exploring a new hobby or seeking professional guidance, Caffae empowers you to connect with like-minded mentors. Navigate a world of knowledge, advice, and collaboration with Caffae – where every connection enriches your journey and elevates your pursuits."></LeftDesc>
         <Infocard></Infocard>
-      
-        <Googleform />
-        <Community />
+        <DescSection></DescSection>
+      <DownloadInfocard></DownloadInfocard>
+        {/* <Googleform />
+        <Community /> */}
         <Footer />
     </>
   )
