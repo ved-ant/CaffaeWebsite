@@ -58,13 +58,14 @@ margin-top: 16%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     padding-left: 8%;
     background-image: url("../../assets/rectangle11.png");
     background-size: cover;
+    margin-top: -20vh;
     z-index: 5;
     height: 100vh;
-    padding-bottom: 5%;    
+    padding-top: 6%;   
 }
 .header-desc{
     color: #263045;
