@@ -10,15 +10,15 @@ const Header = () => {
     <div className='header-left_desc-text'>
     <div className='header-desc_text-container'>
       <div className='header-title'>
-      Discover, Learn, Connect
-      The <span className='header-other'>caffae</span> way! 
+      India’s First 1:1 Personalized
+      Guidance App
+    <span className='header-other'> Unlocked!</span> 
       </div>
       <div className='header-desc'>
-      Caffae is a transformative platform connecting seekers with experienced Gurus. Gain valuable advice, personalized guidance, and inspiration from those who have triumphed on the same path. Tap into a wealth of firsthand experiences, practical advice, and tailored guidance from our esteemed Gurus.Let Caffae bridge the gap between aspiration and achievement. Join us today!
-      </div>
+      Bridging Aspirations to Achievements: Connect with Gurus on Caffae for Personalized Success.</div>
     <div className='buttonheader'>
-     <a href="#container"><button className='header-button'>Join our community</button></a> 
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZ0UaPRzYJddIc3ZIEE6oHrX_H1K7zaLocFNpCc9hjR_jkjA/viewform" target='_blank'><button className='header-buttontwo'>Contact Guru</button></a> </div>
+     <a href="#container"><button className='header-button'>Download Caffae</button></a> 
+</div>
     </div>
     </div>
     <div className='header-left_desc-image'>

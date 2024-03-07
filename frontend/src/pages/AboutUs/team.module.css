@@ -49,20 +49,31 @@ border-radius: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 998px;
+    width: 75vw;
     height: 296px;
+    flex-wrap: wrap;
 }
 
 h1
 {
     font-family: Helvetica;
-font-size: 90.43px;
+font-size: 4rem;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-width: 430px;
+
 background: var(--gradient, linear-gradient(167deg, #331EFD 0%, #00D7FE 100%));
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+    .team{
+        margin-bottom: 150%;
+    }
+    h1{
+        position: relative;
+        
+    }
 }

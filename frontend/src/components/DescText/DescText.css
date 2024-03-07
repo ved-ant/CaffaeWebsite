@@ -3,10 +3,11 @@
     flex: 2;
     flex-direction: column;
     flex-shrink: 0;
+    gap:14px;
 }
 
 .desc_text-header {
-    font-size: 40px;
+    font-size: 38px;
     font-family: Helvetica;
     font-style: normal;
     font-weight: 700;

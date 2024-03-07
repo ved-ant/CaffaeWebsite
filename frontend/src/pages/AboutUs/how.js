@@ -3,16 +3,16 @@ import stl from './how.module.css'
 
 const How = () => {
   return (
+    <div className={stl.wrap}>
     <div className={stl.parent}>
       <div className={stl.left}>
         <h2>
-          How Caffae
-          <span className={stl.textHighlight}>easy access</span> started
+          How Caffae 
+          <span className={stl.textHighlight}> started</span> 
         </h2>
         <p>
           During my journey preparing for the JEE, I encountered challenges in
           reaching out to students who had successfully cleared the exam and
-          were already attending colleges. When I finally cleared the JEE, I
           found myself grappling with the same issue of selecting the right
           college. My desire to gain firsthand insights from current college
           students about their experiences motivated me. This need for
@@ -30,6 +30,7 @@ const How = () => {
       <div className={stl.right}>
         <img src=""></img>
       </div>
+    </div>
     </div>
   );
 };
