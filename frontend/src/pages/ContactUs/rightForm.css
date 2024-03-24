@@ -2,7 +2,17 @@
   display: flex;
   flex-direction: column;
   width: 50%;
+  color: white;
 }
+
+.head {
+  font-size: 1.8rem;
+}
+
+p {
+  color: white;
+}
+
 label {
 }
 

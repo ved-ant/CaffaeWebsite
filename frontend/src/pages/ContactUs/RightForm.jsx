@@ -6,8 +6,8 @@ function fomrSubmit() {}
 function RightForm() {
   return (
     <div className="outline">
-      <p>Contact Us Form</p>
-      <p>Please feel free to contact us </p>
+      <p className="head">Contact Us Form</p>
+      <p style={{ fontSize: "1 rem" }}>Please feel free to contact us </p>
       <form action="">
         <label htmlFor="name">Name</label>
         <input type="text" name="name" id="" placeholder="Enter your name" />
