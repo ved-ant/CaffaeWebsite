@@ -7,7 +7,7 @@ import image3 from '../../assets/instagram.png';
 import yt from '../../assets/vector.png'
 
 const Footer = () => {
-  const [contactForm, setContactForm] = useState({
+  /*const [contactForm, setContactForm] = useState({
     name: "",
     email: "",
     query: ""
@@ -65,6 +65,43 @@ const Footer = () => {
       </div>
     </div>
   )
-}
+  */
+ return(
+<div class="Frame66">
+  <div class="Rectangle19"></div>
+  <div class="ContactUsCaffaeInGmailCom">
+    <span class="gmail">Contact Us:</span><span class="mail"><a href="mailto:caffae.in@gmail.com" >caffae.in@gmail.com</a></span>
+  </div>
+  <div class="Frame55">
+    <div class="Frame53">
+      <div class="Company">Company</div>
+      <div class="Home">Home</div>
+      <div class="AboutUs">About us</div>
+      <div class="Careeres">Careeres</div>
+      <div class="CaffaeCommunity">caffae community</div>
+     
+    </div>
+    <div class="Frame54">
+      <div class="ImportantLinks">Important links</div>
+      
+      <div class="BecomeAGuru">Become a Guru</div>
+      <div class="ContactGuru">Contact Guru</div>
+    
+    </div>
+  </div>
+  <div class="Frame57">
+    <div class="Caffae">CAFFAE</div>
+    <div class="IndiaSFirst11PersonalisedGuidanceApp">India’s first 1:1 personalised guidance app</div>
+    <div class="Frame56">
+      <div class="BiInstagram">
+        <div class="Vector"></div>
+      </div>
+      <div class="Vector"></div>
+      <div class="Vector"></div>
+    </div>
+  </div>
+</div>
 
+ )
+ }
 export default Footer;
