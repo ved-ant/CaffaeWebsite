@@ -1,0 +1,9 @@
+.outline {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+}

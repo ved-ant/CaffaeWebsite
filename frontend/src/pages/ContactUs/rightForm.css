@@ -1,0 +1,27 @@
+.outline {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  color: white;
+}
+
+.head {
+  font-size: 1.8rem;
+}
+
+p {
+  color: white;
+}
+
+label {
+}
+
+input {
+  width: 100%;
+  color: black;
+}
+
+button {
+  width: 70%;
+  height: 40px;
+}

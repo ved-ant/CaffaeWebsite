@@ -44,7 +44,7 @@ function Navbar() {
               <a href='/guru' className={`${styles.navLink}`}>BECOME A GURU</a>
             </li>
             <li onClick={removeActive}>
-              <a href='#home' className={`${styles.navLink}`}>CONTACT US</a>
+              <a href='/contactus' className={`${styles.navLink}`}>CONTACT US</a>
             </li>
           </ul>
 
