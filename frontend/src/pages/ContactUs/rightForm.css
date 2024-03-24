@@ -1,0 +1,17 @@
+.outline {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+label {
+}
+
+input {
+  width: 100%;
+  color: black;
+}
+
+button {
+  width: 70%;
+  height: 40px;
+}
