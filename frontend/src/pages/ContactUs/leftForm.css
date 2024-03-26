@@ -6,16 +6,35 @@
   padding: 3%;
   margin: 0 0 0 2%;
   background-color: white;
-  align-items: flex-start;
+  align-items: center;
   border-radius: 10px;
   /* margin-left: -5%; */
 }
 
 .outline1 .image1 {
   max-width: 100%;
+  position: relative;
+  top: -20px;
 }
 
 .outline1 p {
+  max-width: 200px;
   width: auto;
-  font-size: 1rem;
+  font-size: 0.8rem;
+}
+
+.outline1 p span img {
+  max-width: 20px;
+  margin: 0 10px 0 0px;
+}
+
+.outline1 .socials {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 15%;
+  margin-top: -15%;
+}
+.outline1 .socials img {
+  max-height: 35px;
 }
