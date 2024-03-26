@@ -1,5 +1,5 @@
 import stl from './how.module.css'
-
+import image3 from '../../assets/starting-a-business-proyectrafiki.png';
 
 const How = () => {
   return (
@@ -7,8 +7,7 @@ const How = () => {
     <div className={stl.parent}>
       <div className={stl.left}>
         <h2>
-          How Caffae 
-          <span className={stl.textHighlight}> started</span> 
+Caffae's<span className={stl.textHighlight}> Story</span> 
         </h2>
         <p>
           During my journey preparing for the JEE, I encountered challenges in
@@ -28,7 +27,7 @@ const How = () => {
         </p>
       </div>
       <div className={stl.right}>
-        <img src=""></img>
+        <img src={image3}></img>
       </div>
     </div>
     </div>

@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './Footer.css';
 import image1 from '../../assets/mention.png';
-import image2 from '../../assets/linkedin.png';
-import image3 from '../../assets/instagram.png';
+import image2 from '../../assets/Vector (1).png';
+import image3 from '../../assets/Vector (2).png';
 import yt from '../../assets/vector.png'
+
 
 const Footer = () => {
   /*const [contactForm, setContactForm] = useState({
@@ -93,11 +94,11 @@ const Footer = () => {
     <div class="Caffae">CAFFAE</div>
     <div class="IndiaSFirst11PersonalisedGuidanceApp">India’s first 1:1 personalised guidance app</div>
     <div class="Frame56">
-      <div class="BiInstagram">
-        <div class="Vector"></div>
-      </div>
-      <div class="Vector"></div>
-      <div class="Vector"></div>
+    <div className='footer-social_section-social_handles'>
+          <a href="https://www.linkedin.com/company/caffae/" className='footer-social_section-social_handles-handle' target='_blank'><img src={yt} /></a>
+          <a href="https://www.linkedin.com/company/caffae/" className='footer-social_section-social_handles-handle' target='_blank'><img src={image2} /></a>
+          <a href="https://www.instagram.com/caffae.in/" className='footer-social_section-social_handles-handle' target='_blank'><img src={image3} /></a>
+        </div>
     </div>
   </div>
 </div>
