@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: column;
   padding: 3%;
-  margin: 0 2% 0 0;
+  margin: -3% 2% 0 3%;
   padding-top: 0%;
-  width: 50%;
+  width: 45%;
   color: white;
   height: 100%;
 }
@@ -19,6 +19,8 @@
 }
 
 .outline2 label {
+  font-family: Helvetica;
+  font-size: 0.9rem;
 }
 
 .outline2 form {
@@ -31,23 +33,66 @@
   border-radius: 3px;
   border: none;
   margin-bottom: 5%;
+  margin-top: 4px;
+  height: 25px;
+  font-size: 0.9rem;
 }
 
 .outline2 .msg {
-  height: 25%;
-  margin-bottom: 10%;
+  /* height: 25%; */
+  margin-bottom: 7%;
+  color: black;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 4px;
+  resize: none;
+  font-size: 0.9rem;
 }
+/* .outline2 .msg ::placeholder {
+  padding-top: 20px;
+} */
 
 ::placeholder {
   color: rgb(215, 215, 215);
   font-size: 0.7rem;
   text-align: left;
   vertical-align: bottom;
+  padding-left: 10px;
 }
 
 .outline2 button {
-  width: 80%;
+  width: 70%;
   height: 35px;
   border-radius: 10px;
   border: none;
+  background-image: linear-gradient(to right, #331efd, #00d7fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.outline2 button .text {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #331efd, #00d7fe);
+}
+
+.outline2 button:after {
+  content: "";
+  border-radius: 4px;
+  position: absolute;
+  margin: 1px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background: white;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
 }

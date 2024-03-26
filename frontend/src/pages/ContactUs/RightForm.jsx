@@ -7,7 +7,14 @@ function RightForm() {
   return (
     <div className="outline2">
       <p className="head2">Contact Us Form</p>
-      <p style={{ fontSize: " 0.9rem", color: "white", marginTop: "-10px" }}>
+      <p
+        style={{
+          fontSize: " 0.9rem",
+          color: "white",
+          marginTop: "-10px",
+          marginBottom: "30px",
+        }}
+      >
         Please feel free to contact us{" "}
       </p>
       <form action="">
@@ -15,21 +22,22 @@ function RightForm() {
         <input type="text" name="name" id="" placeholder="Enter your name" />
         <label htmlFor="phone">Phone</label>
         <input
-          type="text"
+          type="number"
           name="phone"
           id=""
           placeholder="Enter your phone number"
         />
         <label htmlFor="email">Email</label>
-        <input type="text" name="email" id="" placeholder="Enter your Email" />
+        <input type="email" name="email" id="" placeholder="Enter your Email" />
         <label htmlFor="message">Message</label>
-        <input
-          type="text"
+        <textarea
+          className="msg"
           name="message"
           id=""
+          cols="30"
+          rows="4"
           placeholder="Type your message here"
-          className="msg"
-        />
+        ></textarea>
         <button onSubmit={formSubmit}>Submit</button>
       </form>
     </div>
