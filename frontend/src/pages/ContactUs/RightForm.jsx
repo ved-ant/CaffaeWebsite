@@ -1,13 +1,15 @@
 import React from "react";
 import "./rightForm.css";
 
-function fomrSubmit() {}
+function formSubmit() {}
 
 function RightForm() {
   return (
-    <div className="outline">
-      <p className="head">Contact Us Form</p>
-      <p style={{ fontSize: "1 rem" }}>Please feel free to contact us </p>
+    <div className="outline2">
+      <p className="head2">Contact Us Form</p>
+      <p style={{ fontSize: " 0.9rem", color: "white", marginTop: "-10px" }}>
+        Please feel free to contact us{" "}
+      </p>
       <form action="">
         <label htmlFor="name">Name</label>
         <input type="text" name="name" id="" placeholder="Enter your name" />
@@ -26,8 +28,9 @@ function RightForm() {
           name="message"
           id=""
           placeholder="Type your message here"
+          className="msg"
         />
-        <button onSubmit={fomrSubmit}>Submit</button>
+        <button onSubmit={formSubmit}>Submit</button>
       </form>
     </div>
   );
