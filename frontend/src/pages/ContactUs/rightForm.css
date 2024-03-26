@@ -1,27 +1,53 @@
-.outline {
+.outline2 {
   display: flex;
   flex-direction: column;
+  padding: 3%;
+  margin: 0 2% 0 0;
+  padding-top: 0%;
   width: 50%;
   color: white;
+  height: 100%;
 }
 
-.head {
+.outline2 .head2 {
   font-size: 1.8rem;
-}
-
-p {
   color: white;
 }
 
-label {
+.outline2 p {
+  width: auto;
 }
 
-input {
+.outline2 label {
+}
+
+.outline2 form {
+  width: 100%;
+}
+
+.outline2 input {
   width: 100%;
   color: black;
+  border-radius: 3px;
+  border: none;
+  margin-bottom: 5%;
 }
 
-button {
-  width: 70%;
-  height: 40px;
+.outline2 .msg {
+  height: 25%;
+  margin-bottom: 10%;
+}
+
+::placeholder {
+  color: rgb(215, 215, 215);
+  font-size: 0.7rem;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+.outline2 button {
+  width: 80%;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
 }
