@@ -1,0 +1,591 @@
+/*.footer-container {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#0F285C, #03266F);
+    padding: 2% 15%;
+    color: #fff;
+}
+
+.footer-form_section {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-image {
+    display: flex;
+    flex: 1.2;
+    align-content: center;
+    justify-content: center;
+}
+
+.footer-sub_image {
+    align-self: center;
+    width: 100%;
+    height: auto;
+}
+
+.footer-space {
+    display: flex;
+    flex: 0.2;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.footer-form p {
+    color: #FFF;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-form-field {
+    border-radius: 30px;
+    background: rgba(135, 133, 133, 0.20);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    vertical-align: text-top;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-width: 1px;
+}
+
+.footer-form-field::placeholder {
+    color: #FFF;
+    font-size: 18px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.4300000071525574;
+    padding-top: 2px;
+}
+
+.textarea {
+    height: 155px;
+}
+
+.textarea::placeholder {
+    padding-top: 2px;
+}
+
+.footer-form-btn {
+    display: inline-flex;
+    padding: 2% 5%;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    border-radius: 30px;
+    background: linear-gradient(153deg, rgba(64, 123, 255, 0.70) 0%, rgba(64, 123, 255, 0.00) 100%);
+    backdrop-filter: blur(20px);
+    color: #FFF;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-width: 1px;
+    margin-top: 4%;
+}
+
+input, select, textarea{
+    color: #fff;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+textarea:focus, input:focus {
+    color: #FFF;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-divider {
+    height: 2px;
+    background: linear-gradient(180deg, #D9D9D9 0%, rgba(217, 217, 217, 0.00) 100%);
+    margin: 3% 0;
+}
+
+.footer-social_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-social_section-header {
+    display: flex;
+    color: #FFF;
+    text-align: right;
+    justify-content: right;
+    width: 100%;
+    font-size: 36px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    flex: 1;
+    margin: 0 2%;
+}
+
+.footer-social_section-social_handles {
+    display: flex;
+    flex: 0.2;
+    margin: 0 3% 0 2%;
+}
+
+.footer-social_section-social_handles-handle {
+    margin: 0 5%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-social_section-mail {
+    flex-direction: column;
+    flex: 1;
+    display: flex;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 2%;
+    text-align: left;
+}
+
+.footer-social_section-mail a {
+    color: #FFF;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+   .footer-form_section {
+        flex-direction: column;
+   }
+
+   .footer-image {
+        display: none;
+   }
+
+   .footer-social_section {
+        flex-direction: column;
+   }
+
+   .footer-social_section {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+   }
+
+   .footer-social_section-header {
+        align-items: center;
+        text-align: center;
+        justify-content: center; 
+        margin: 0;   
+   }
+
+   .footer-social_section-mail {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 0;
+   }
+
+   .footer-social_section-social_handles {
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+   }
+}
+
+@media screen and (max-width: 992px) {
+
+}
+*/
+/*.footer-container {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#0F285C, #03266F);
+    padding: 2% 15%;
+    color: #fff;
+}
+
+.footer-form_section {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-image {
+    display: flex;
+    flex: 1.2;
+    align-content: center;
+    justify-content: center;
+}
+
+.footer-sub_image {
+    align-self: center;
+    width: 100%;
+    height: auto;
+}
+
+.footer-space {
+    display: flex;
+    flex: 0.2;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.footer-form p {
+    color: #FFF;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-form-field {
+    border-radius: 30px;
+    background: rgba(135, 133, 133, 0.20);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    vertical-align: text-top;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-width: 1px;
+}
+
+.footer-form-field::placeholder {
+    color: #FFF;
+    font-size: 18px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.4300000071525574;
+    padding-top: 2px;
+}
+
+.textarea {
+    height: 155px;
+}
+
+.textarea::placeholder {
+    padding-top: 2px;
+}
+
+.footer-form-btn {
+    display: inline-flex;
+    padding: 2% 5%;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    border-radius: 30px;
+    background: linear-gradient(153deg, rgba(64, 123, 255, 0.70) 0%, rgba(64, 123, 255, 0.00) 100%);
+    backdrop-filter: blur(20px);
+    color: #FFF;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-width: 1px;
+    margin-top: 4%;
+}
+
+input, select, textarea{
+    color: #fff;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+textarea:focus, input:focus {
+    color: #FFF;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-divider {
+    height: 2px;
+    background: linear-gradient(180deg, #D9D9D9 0%, rgba(217, 217, 217, 0.00) 100%);
+    margin: 3% 0;
+}
+
+.footer-social_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-social_section-header {
+    display: flex;
+    color: #FFF;
+    text-align: right;
+    justify-content: right;
+    width: 100%;
+    font-size: 36px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    flex: 1;
+    margin: 0 2%;
+}
+
+.footer-social_section-social_handles {
+    display: flex;
+    flex: 0.2;
+    margin: 0 3% 0 2%;
+}
+
+.footer-social_section-social_handles-handle {
+    margin: 0 5%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-social_section-mail {
+    flex-direction: column;
+    flex: 1;
+    display: flex;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 2%;
+    text-align: left;
+}
+
+.footer-social_section-mail a {
+    color: #FFF;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+   .footer-form_section {
+        flex-direction: column;
+   }
+
+   .footer-image {
+        display: none;
+   }
+
+   .footer-social_section {
+        flex-direction: column;
+   }
+
+   .footer-social_section {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+   }
+
+   .footer-social_section-header {
+        align-items: center;
+        text-align: center;
+        justify-content: center; 
+        margin: 0;   
+   }
+
+   .footer-social_section-mail {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 0;
+   }
+
+   .footer-social_section-social_handles {
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+   }
+}
+
+@media screen and (max-width: 992px) {
+
+}
+*/
+.Frame66 {
+    display: flex;
+    flex-direction: row;
+      width: 100vw;
+      height: 100%;
+      position: relative;
+      background: linear-gradient(180deg, rgba(254.65, 254.65, 254.65, 0.60) 0%, rgba(254.65, 254.65, 254.65, 0.60) 100%);
+    }
+    
+    .Rectangle19 {
+      width: 50vw;
+      height: 5px;
+      position: relative;
+      background: #263045;
+    }
+    
+    .ContactUsCaffaeGmailCom {
+      position: relative;
+      padding-left: 1%;
+      padding-top: 60%;
+    }
+    
+    .Frame55 {
+      left: 834px;
+      padding-top: 5%;
+      position: absolute;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 27px;
+      display: inline-flex;
+    }
+    
+    .Frame53,
+    .Frame54 {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 16px;
+      font-family: Helvetica;
+      display: inline-flex;
+      font-size: 20px;
+     
+    }
+    
+    .Company,
+    .ImportantLinks {
+      background: linear-gradient(to right, #331EFD, #00D7FE);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 22px;
+      font-family: Helvetica;
+      font-weight: 700;
+      word-wrap: break-word;
+    }
+   
+  
+    
+    .Frame57 {
+      padding-left: 5%;
+      padding-top: 5%;
+      position: absolute;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 20px;
+      display: inline-flex;
+    }
+    
+    .Caffae {
+      background: linear-gradient(to right, #331EFD, #00D7FE);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 32px;
+      font-family: Helvetica;
+      font-weight: 700;
+      word-wrap: break-word;
+    }
+    
+    .IndiaSFirst11PersonalisedGuidanceApp {
+      width: 399px;
+      color: #263045;
+      font-size: 32px;
+      font-family: Helvetica;
+      font-weight: 400;
+      word-wrap: break-word;
+    }
+    
+    .Frame56 {
+      justify-content: flex-start;
+      align-items: center;
+      gap: 20px;
+      display: inline-flex;
+    }
+    
+    .BiInstagram {
+      width: 32px;
+      height: 32px;
+      position: relative;
+    }
+    
+    .Vector {
+      width: 32px;
+      height: 32px;
+      position: absolute;
+      background: #263045;
+    }
+    
+    .Vector:nth-child(2) {
+      width: 32px;
+      height: 30.58px;
+    }
+    
+    .Vector:last-child {
+      width: 44.12px;
+    }
+    
+    .ContactUsCaffaeGmailCom{
+      font-family: Helvetica;
+      display: inline-flex;
+      font-size: 20px;
+     
+    }
+    .ggmail{
+      font-weight: bold;
+      color: black;
+    }
+    .ContactUsCaffaeGmailCom{
+      color: black;
+    }
+   .guru{
+    color: black;
+   }
+
+   .cg{
+    color: black;
+   }
+   .gm{
+    color: black;
+   }
