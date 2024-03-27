@@ -14,11 +14,7 @@ const Header = () => {
             Bridging Aspirations to Achievements: Connect with Gurus on Caffae
             for Personalized Success.
           </div>
-          <div className="buttonheader">
-            <a href="#container">
-              <button className="header-button">Download Caffae</button>
-            </a>
-          </div>
+          <button className="header-button">Download Caffae</button>
         </div>
       </div>
       <div className="header-left_desc-image">

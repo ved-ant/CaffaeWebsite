@@ -11,6 +11,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
+  text-align: justify;
 }
 
 .right {
@@ -21,59 +22,77 @@
   padding-left: 4%;
 }
 
-.wrap
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    flex-wrap: wrap;
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
 }
-
 
 h2 {
-    color: #263045;
-    font-family: Helvetica;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 7%;
+  color: #263045;
+  font-family: Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 5%;
 }
-.matter{
+.matter {
   display: flex;
-width: 676px;
-color: #263045;
-font-family: Helvetica;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding-left: 8%;
+  width: 676px;
+  color: #263045;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 5%;
 }
 
 .textHighlight {
-    background: linear-gradient(139deg, #331EFD 0%, #00D7FE 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: Helvetica;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    
+  background: linear-gradient(139deg, #331efd 0%, #00d7fe 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 @media screen and (max-width: 768px) {
-  .right{
+  .right {
     display: none;
   }
-  
-  .left{
-    padding-left: 3%;
+
+  .left {
+    /* padding-left: 3%; */
+    width: 80%;
   }
-  .matter{
+  .matter {
     width: 100%;
     padding-left: 3%;
+  }
+  .parent {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .parent {
+    justify-content: center;
+  }
+  .left {
+    padding-left: 0;
+    margin-left: 0;
+    width: 80%;
+    align-items: center;
+  }
+  .matter {
+    max-width: 100%;
+    padding-left: 0;
+    margin-left: 0;
   }
 }
