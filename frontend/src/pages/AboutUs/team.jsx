@@ -12,11 +12,7 @@ const Team = () => {
             <TeamMember name="" role="" img=""></TeamMember>
             <TeamMember name="" role="" img=""></TeamMember>
           </div>
-          <div className={stl.row}>
-            <TeamMember name="" role="" img=""></TeamMember>
-            <TeamMember name="" role="" img=""></TeamMember>
-            <TeamMember name="" role="" img=""></TeamMember>
-          </div>
+          
         </div>
       </div>
     </Fragment>
