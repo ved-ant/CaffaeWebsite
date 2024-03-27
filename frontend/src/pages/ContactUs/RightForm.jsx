@@ -40,7 +40,11 @@ function RightForm() {
           rows="4"
           placeholder="Type your message here"
         ></textarea>
-        <button onSubmit={formSubmit}>Submit</button>
+
+        <button onSubmit={formSubmit}>
+          <span>Submit</span>
+        </button>
+        <div className="btnbg"></div>
       </form>
     </div>
   );
