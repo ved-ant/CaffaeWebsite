@@ -1,5 +1,5 @@
 import stl from "./vision.module.css";
-
+import image1 from"../../assets/Mask group.png";
 const Vision = () => {
   return (
     <div className={stl.wrapper}>
@@ -17,7 +17,7 @@ const Vision = () => {
         </span>
       </div>
       <div className={stl.right}>
-        <div className={stl.profileCircle}> </div>
+        <div className={stl.profileCircle} > </div>
         <div className={stl.profileBox}>
             <span className={stl.name}>Romil Seth<br/> Founder & CEO</span>
             <span className={stl.quote}>

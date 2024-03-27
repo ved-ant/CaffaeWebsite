@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import stl from "./team.module.css";
-
+import image3 from '../../assets/Mask group.png';
 const Team = () => {
   return (
     <Fragment>
@@ -8,9 +8,9 @@ const Team = () => {
         <h1>The Team</h1>
         <div className={stl.teamMembers}>
           <div className={stl.row}>
-            <TeamMember name="" role="" img=""></TeamMember>
-            <TeamMember name="" role="" img=""></TeamMember>
-            <TeamMember name="" role="" img=""></TeamMember>
+            <TeamMember name="Eshu Kholi" role="Co-Founder" img=""></TeamMember>
+            <TeamMember name="Vedant Gadodia" role="TechLead" img=""></TeamMember>
+            <TeamMember name="Gungun Hindoja" role="Product Developer" img=""></TeamMember>
           </div>
           
         </div>
