@@ -138,3 +138,12 @@
 nav .active {
   color: red;
 }
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+  .navMenu {
+    display: none;
+  }
+}
