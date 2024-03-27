@@ -1,14 +1,11 @@
-.wrapper
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-   bottom: 50px;
-   flex-wrap: wrap;
-  
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 50px;
+  flex-wrap: wrap;
 }
-
 
 .parent {
   display: flex;
@@ -20,101 +17,94 @@
 }
 
 .left {
-  width :60%;
+  width: 60%;
   display: flex;
-flex-direction: column;
-justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .right {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.profileBox
-{
-    width: 322px;
-height: 307px;
-border-radius: 20px 0px;
-background: linear-gradient(180deg, #F3F7FF 0%, #E8EFFF 100%);
-display: flex;
-position: relative;
-bottom: 5%;
-transform: scale(92%);
-flex-shrink: inherit;
-flex-direction: column;
-justify-content: space-around;
-align-items: center;
-font-size: 1.8rem;
-text-align: center;
+.profileBox {
+  width: 322px;
+  height: 307px;
+  border-radius: 20px 0px;
+  background: linear-gradient(180deg, #f3f7ff 0%, #e8efff 100%);
+  display: flex;
+  position: relative;
+  bottom: 5%;
+  transform: scale(92%);
+  flex-shrink: inherit;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.8rem;
+  text-align: center;
 }
 
-.profileCircle
-{
-    width: 80px;
-   height: 80px;
-border-radius: 100%;
-z-index: 2;
-background-color: #263045;
-position: relative;
-top: 8%;
-
+.profileCircle {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  z-index: 2;
+  background-color: #263045;
+  position: relative;
+  top: 8%;
 }
 
-h2{
-    color: #263045;
-    font-family: Helvetica;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+h2 {
+  color: #263045;
+  font-family: Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
-.para
-{
-    color: #263045;
-font-family: Helvetica;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.para {
+  color: #263045;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-.textHighlight
-{
-    background: var(--gradient, linear-gradient(167deg, #331EFD 0%, #00D7FE 100%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: Helvetica;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+.textHighlight {
+  background: var(
+    --gradient,
+    linear-gradient(167deg, #331efd 0%, #00d7fe 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-
 
 @media screen and (max-width: 768px) {
-    h2{
-        font-size: 15px;
-    }
-    .left
-    {
-        width: 100%;
-    }
-    .wrapper
-    {
-        bottom: 10rem;
-        margin-bottom: 120%;
-    }
-    .para{
-        display: inline-block;
-        width: 90vw;
-    }
-    
-
-    
+  h2 {
+    font-size: 15px;
+    text-align: center;
   }
-  
+  .left {
+    width: 100%;
+  }
+  .wrapper {
+    bottom: 10rem;
+    margin-bottom: 120%;
+  }
+  .para {
+    display: inline-block;
+    width: 100%;
+    text-align: justify;
+  }
+}
