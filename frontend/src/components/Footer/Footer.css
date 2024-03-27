@@ -364,3 +364,15 @@ footer-social_section-social_handles-handle
   color: black;
 }
 
+@media screen and (max-width: 768px) {
+  .Frame66{
+    flex-direction: column;
+  }
+  .Frame55{
+    padding-left: 10%;
+    padding-bottom: 4%;
+  }
+  .IndiaSFirst11PersonalisedGuidanceApp{
+    font-size: 20px;
+  }
+}
