@@ -65,9 +65,26 @@
   height: 35px;
   border-radius: 10px;
   border: none;
+  /* background-image: linear-gradient(to right, #331efd, #00d7fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  z-index: 2;
+  position: relative;
+}
+.outline2 button span {
   background-image: linear-gradient(to right, #331efd, #00d7fe);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.btnbg {
+  width: 70%;
+  height: 35px;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  bottom: 35px;
+  z-index: 0;
 }
 
 /* .outline2 button .text {
@@ -109,5 +126,10 @@ input[type="number"]::-webkit-outer-spin-button {
   }
   .outline2 form button {
     align-self: center;
+  }
+  .btnbg {
+    align-self: center;
+    position: relative;
+    bottom: 35px;
   }
 }
