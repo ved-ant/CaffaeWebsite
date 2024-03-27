@@ -40,12 +40,10 @@ h2 {
     line-height: normal;
     padding-left: 7%;
 }
-
-p {
+.matter{
   display: flex;
-  flex-direction: row;
-    width: 676px;
-    color: #263045;
+width: 676px;
+color: #263045;
 font-family: Helvetica;
 font-size: 20px;
 font-style: normal;
@@ -71,6 +69,11 @@ padding-left: 8%;
     display: none;
   }
   
-  
-  
+  .left{
+    padding-left: 3%;
+  }
+  .matter{
+    width: 100%;
+    padding-left: 3%;
+  }
 }
