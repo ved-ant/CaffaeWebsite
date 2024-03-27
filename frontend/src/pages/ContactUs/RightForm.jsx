@@ -1,7 +1,9 @@
 import React from "react";
 import "./rightForm.css";
 
-function formSubmit() {}
+function formSubmit(e) {
+  e.preventDefault();
+}
 
 function RightForm() {
   return (

@@ -38,3 +38,9 @@
 .outline1 .socials img {
   max-height: 35px;
 }
+
+@media screen and (max-width: 780px) {
+  .outline1 {
+    display: none;
+  }
+}

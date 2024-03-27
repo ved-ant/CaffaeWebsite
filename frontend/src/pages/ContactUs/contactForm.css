@@ -9,3 +9,11 @@
   height: 500px;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 780px) {
+  .outerbox {
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+  }
+}
