@@ -12,7 +12,6 @@ function ContactUs() {
         <ContactForm></ContactForm>
       </div>
       <Footer></Footer>
-
     </div>
   );
 }
