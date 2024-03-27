@@ -4,11 +4,13 @@ import GuruPage from "./pages/GuruPage/GuruPage";
 import Navbar from "./components/Navbar/Navbar";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import ContactUs from "./pages/ContactUs/ContactUs";
+import Nav from "./components/Navbar/Nav";
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
+      {/* <Nav></Nav> */}
       <Routes>
         <Route
           path="/"

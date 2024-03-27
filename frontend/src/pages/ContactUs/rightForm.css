@@ -70,7 +70,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-.outline2 button .text {
+/* .outline2 button .text {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(to right, #331efd, #00d7fe);
@@ -87,7 +87,7 @@
   right: 0;
   z-index: -1;
   background: white;
-}
+} */
 
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
