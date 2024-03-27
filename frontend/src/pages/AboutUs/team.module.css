@@ -71,6 +71,8 @@ background-clip: text;
 @media screen and (max-width: 768px) {
     .team{
         margin-bottom: 150%;
+        margin-top: 60%;
+
     }
     h1{
         position: relative;
