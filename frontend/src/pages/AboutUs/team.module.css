@@ -37,12 +37,14 @@
   height: 218px;
   border-radius: 100%;
   position: absolute;
+  object-fit: cover;
 }
 
 .team {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* max-height: max-content; */
 }
 
 .row {
@@ -50,7 +52,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   width: 75vw;
-  height: 296px;
+  height: max-content;
   flex-wrap: wrap;
 }
 
@@ -72,8 +74,8 @@ h1 {
 
 @media screen and (max-width: 768px) {
   .team {
-    margin-bottom: 160%;
-    margin-top: 27%;
+    margin-bottom: 20%;
+    /* margin-top: 10%; */
   }
   h1 {
     position: relative;
