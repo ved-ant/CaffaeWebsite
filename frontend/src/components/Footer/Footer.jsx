@@ -77,9 +77,11 @@ const Footer = () => {
           <div class="Frame56">
             <div className='footer-social_section-social_handles'>
               <a href="https://www.linkedin.com/company/caffae/" className='footer-social_section-social_handles-handle' target='_blank'><img src={yt} /></a>
-              <a href="https://www.linkedin.com/company/caffae/" className='footer-social_section-social_handles-handle' target='_blank'><img src={image2} /></a>
-              <a href="https://www.instagram.com/caffae.in/" className='footer-social_section-social_handles-handle' target='_blank'><img src={image3} /></a>
-            </div>
+              </div>
+              <div className='footer-social_section-social_handles'><a href="https://www.linkedin.com/company/caffae/" className='footer-social_section-social_handles-handle' target='_blank'><img src={image2} /></a>
+              </div>
+              <div className='footer-social_section-social_handles'><a href="https://www.instagram.com/caffae.in/" className='footer-social_section-social_handles-handle' target='_blank'><img src={image3} /></a>
+              </div>
           </div>
         </div>
         <div class="Frame55">

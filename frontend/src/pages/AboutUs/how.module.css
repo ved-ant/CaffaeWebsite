@@ -30,7 +30,7 @@
   flex-wrap: wrap;
 }
 
-h2 {
+.parent h2 {
   color: #263045;
   font-family: Helvetica;
   font-size: 40px;
