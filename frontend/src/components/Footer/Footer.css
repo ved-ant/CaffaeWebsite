@@ -220,7 +220,7 @@ footer-social_section-social_handles-handle
 
 }
 */
-.FrameMain{
+.FrameMain {
   max-height: max-content;
 }
 .Frame66 {
@@ -300,7 +300,6 @@ footer-social_section-social_handles-handle
   display: inline-flex;
   height: fit-content;
   padding-bottom: 5%;
-
 }
 
 .Caffae {
@@ -325,7 +324,7 @@ footer-social_section-social_handles-handle
 .Frame56 {
   justify-content: flex-start;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   display: inline-flex;
 }
 
@@ -365,14 +364,14 @@ footer-social_section-social_handles-handle
 }
 
 @media screen and (max-width: 768px) {
-  .Frame66{
+  .Frame66 {
     flex-direction: column;
   }
-  .Frame55{
+  .Frame55 {
     padding-left: 10%;
     padding-bottom: 4%;
   }
-  .IndiaSFirst11PersonalisedGuidanceApp{
+  .IndiaSFirst11PersonalisedGuidanceApp {
     font-size: 22px;
     width: 100%;
   }

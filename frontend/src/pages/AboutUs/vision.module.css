@@ -48,16 +48,24 @@
 }
 
 .profileCircle {
-  width: 80px;
-  height: 80px;
+  width: 110px;
+  height: 110px;
   border-radius: 100%;
   z-index: 2;
   background-color: #263045;
   position: relative;
   top: 8%;
+  /* background-image: url("../../assets/romil.jpeg"); */
 }
 
-h2 {
+.profileCircle img {
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  position: absolute;
+}
+
+.left h2 {
   color: #263045;
   font-family: Helvetica;
   font-size: 40px;
@@ -107,4 +115,11 @@ h2 {
     width: 100%;
     text-align: justify;
   }
+}
+
+.quote {
+  font-weight: bolder;
+}
+.name {
+  padding-top: 9%;
 }
