@@ -222,7 +222,7 @@ footer-social_section-social_handles-handle
 */
 .FrameMain {
   max-height: max-content;
-  margin-top: 10%;
+  margin-top: 75px;
 }
 .Frame66 {
   position: relative;
@@ -231,7 +231,7 @@ footer-social_section-social_handles-handle
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width:100%;
+  max-width: 100%;
   padding: 0 5% 0 5%;
   height: max-content;
   background: linear-gradient(
@@ -357,6 +357,7 @@ footer-social_section-social_handles-handle
   font-family: Helvetica;
   display: inline-flex;
   font-size: 20px;
+  color: black;
 }
 .gmail {
   font-weight: bold;
@@ -382,22 +383,26 @@ footer-social_section-social_handles-handle
     font-size: 22px;
     width: 100%;
   }
-  .Frame57{
+  .Frame57 {
     padding-left: 0;
     width: 70%;
     text-align: center;
     align-items: center;
   }
 
-  .ContactUsCaffaeInGmailCom{
+  .ContactUsCaffaeInGmailCom {
     padding: 0;
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .FrameMain{
+  .FrameMain {
     margin-top: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+}
+
+a {
+  color: black;
 }

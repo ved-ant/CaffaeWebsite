@@ -39,8 +39,12 @@ function LeftForm() {
         </p>
       </div>
       <span className="socials">
-        <img src={InsImg} alt="" />
-        <img src={LinkImg} alt="" />
+        <a href="https://www.instagram.com/caffae.in/">
+          <img src={InsImg} alt="" />
+        </a>
+        <a href="https://www.linkedin.com/company/caffae/">
+          <img src={LinkImg} alt="" />
+        </a>
       </span>
     </div>
   );
