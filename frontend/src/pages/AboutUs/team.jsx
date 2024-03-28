@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import stl from "./team.module.css";
 import image1 from "../../assets/eshu.jpg";
 import image3 from "../../assets/gungun.png";
+import image4 from "../../assets/romil.jpeg";
 import image2 from "../../assets/vedant.jpeg";
 import borderImg from "./ellipse12.png";
 const Team = () => {
@@ -11,6 +12,11 @@ const Team = () => {
         <h1>The Team</h1>
         <div className={stl.teamMembers}>
           <div className={stl.row}>
+            <TeamMember
+              name="Romil Seth"
+              role="Founder & CEO"
+              image={image4}
+            ></TeamMember>
             <TeamMember
               name="Eshu Kholi"
               role="Co-Founder"

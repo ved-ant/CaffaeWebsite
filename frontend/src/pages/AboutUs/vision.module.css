@@ -11,7 +11,7 @@
   display: flex;
   padding: 1rem;
   width: 80%;
-  height: 360px;
+  height: max-content;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -63,6 +63,7 @@
   height: 110px;
   border-radius: 100%;
   position: absolute;
+  object-fit: cover;
 }
 
 .left h2 {
@@ -108,12 +109,15 @@
   }
   .wrapper {
     bottom: 10rem;
-    margin-bottom: 120%;
+    /* margin-bottom: 10%; */
   }
   .para {
     display: inline-block;
     width: 100%;
     text-align: justify;
+  }
+  .parent {
+    justify-content: center;
   }
 }
 
@@ -122,4 +126,10 @@
 }
 .name {
   padding-top: 9%;
+}
+
+@media screen and (max-width: 1006px) {
+  .parent {
+    justify-content: center;
+  }
 }
