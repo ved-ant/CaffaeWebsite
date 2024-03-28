@@ -6,11 +6,11 @@ import RightDesc from '../RightDesc/RightDesc';
 import Image1 from '../../assets/ellipse3.png';
 import Image2 from '../../assets/search.png';
 import Image3 from '../../assets/ellipse4.png';
-import Image4 from '../../assets/motivation.png';
+import Image4 from '../../assets/Group 80445.png';
 import Image5 from '../../assets/ellipse5.png';
-import Image6 from '../../assets/experts.png';
+import Image6 from '../../assets/Group 80446.png';
 import Image7 from '../../assets/ellipse6.png';
-import Image8 from '../../assets/verified.png';
+import Image8 from '../../assets/Group 80447.png';
 
 const GuruDescSection = () => {
   return (
