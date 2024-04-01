@@ -232,7 +232,7 @@ footer-social_section-social_handles-handle
   flex-direction: row;
   justify-content: space-between;
   max-width: 100%;
-  padding: 0 5% 0 5%;
+  /*padding: 0 5% 0 5%;*/
   height: max-content;
   background: linear-gradient(
     180deg,
@@ -261,7 +261,7 @@ footer-social_section-social_handles-handle
 
 .Frame55 {
   padding-top: 5%;
-  /* padding-left: 30%; */
+  padding-right: 10%;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 27px;
@@ -295,7 +295,7 @@ footer-social_section-social_handles-handle
 
 .Frame57 {
   padding-top: 5%;
-  /* padding-left: 10%; */
+  padding-left: 5%;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;

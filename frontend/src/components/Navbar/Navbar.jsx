@@ -4,6 +4,12 @@ import { Link } from "react-router-dom";
 import Logo from "../../assets/contactLogo.png";
 
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleClick = () => {
+    setIsOpen(!isOpen);
+  };
+
   // adding the states
   const [isActive, setIsActive] = useState(false);
 
@@ -60,15 +66,9 @@ function Navbar() {
               </a>
             </li>
           </ul>
+          
 
-          <div
-            className={`${styles.hamburger} ${isActive ? styles.active : ""}`}
-            onClick={toggleActiveClass}
-          >
-            <span className={`${styles.bar}`}></span>
-            <span className={`${styles.bar}`}></span>
-            <span className={`${styles.bar}`}></span>
-          </div>
+
         </nav>
       </header>
     </div>
