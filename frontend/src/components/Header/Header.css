@@ -185,7 +185,7 @@
     line-height: normal;
     letter-spacing: 1px;
     margin-bottom: 5%;
-    margin-top: 50%;
+    /* margin-top: 50%; */
     text-align: center;
   }
 
@@ -193,7 +193,7 @@
     margin-right: 8%;
     align-items: flex-start;
     /* padding-top: 10%; */
-    margin-top: 10%;
+    margin-top: 30%;
   }
 
   .header-button {
@@ -208,6 +208,12 @@
   .header-desc_text-container a {
     padding: 3%;
   }
+
+  .header-desc_text-container {
+    align-self: center;
+    margin-top: -20%;
+  }
+
   .header-desc {
     text-align: center;
   }
@@ -215,7 +221,10 @@
 
 @media screen and (max-width: 650px) {
   .header-left_desc-text {
-    margin-top: 30%;
+    margin-top: 50%;
+  }
+  .header-desc_text-container {
+    margin-top: -40%;
   }
 }
 
