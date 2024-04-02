@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./Navbar.module.css";
+import "./Navmodule.css";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/contactLogo.png";
 import { click } from "@testing-library/user-event/dist/click";
@@ -33,8 +33,8 @@ function Navbar() {
     const navmenu = document.getElementById("navmen");
     const ham = document.getElementById("ham");
 
-    navmenu.classList.toggle("active");
-    ham.classList.toggle("active");
+    navmenu.classList.toggle("nav-active");
+    ham.classList.toggle("nav-active");
 
     console.log("works");
   }
@@ -42,54 +42,54 @@ function Navbar() {
   return (
     <div className="App">
       <header className="App-header">
-        <nav className={`${styles.navbar}`}>
+        <nav className="navbar">
           {/* logo */}
-          <a href="/" className={`${styles.logo}`}>
+          <a href="/" className="logo">
             <img src={Logo} alt="" />
           </a>
 
-          <ul className={`${styles.navMenu}`} id="navmen">
+          <ul className="navMenu" id="navmen">
             <li
             // onClick={toggleActiveClass}
-            // className={`${isActive ? styles.active : ""}`}
+            // className={`${isActive ? styles.active : """
             >
-              <a href="/" className={`${styles.navLink}`}>
+              <a href="/" className="navLink">
                 HOME
               </a>
             </li>
             <li
             // onClick={toggleActiveClass}
-            // className={`${isActive ? styles.active : ""}`}
+            // className={`${isActive ? styles.active : """
             >
-              <a href="/aboutus" className={`${styles.navLink}`}>
+              <a href="/aboutus" className="navLink">
                 ABOUT US
               </a>
             </li>
             <li
             // onClick={toggleActiveClass}
-            // className={`${isActive ? styles.active : ""}`}
+            // className={`${isActive ? styles.active : """
             >
-              <a href="/guru" className={`${styles.navLink}`}>
+              <a href="/guru" className="navLink">
                 BECOME A GURU
               </a>
             </li>
             <li
             // onClick={toggleActiveClass}
-            // className={`${isActive ? styles.active : ""}`}
+            // className={`${isActive ? styles.active : """
             >
-              <a href="/contactus" className={`${styles.navLink}`}>
+              <a href="/contactus" className="navLink">
                 CONTACT US
               </a>
             </li>
           </ul>
           <div
-            className={`${styles.hamburger}`}
+            className="hamburger"
             onClick={handleHamburger}
             id="ham"
           >
-            <span className={`${styles.bar}`}></span>
-            <span className={`${styles.bar}`}></span>
-            <span className={`${styles.bar}`}></span>
+            <span className="bar"></span>
+            <span className="bar"></span>
+            <span className="bar"></span>
           </div>
         </nav>
       </header>

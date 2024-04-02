@@ -29,3 +29,12 @@
   line-height: normal;
   display: flex;
 }
+
+@media screen and (max-width: 768px) {
+  .desc_text-header {
+    text-align: center;
+  }
+  .desc_text-basetext {
+    text-align: center;
+  }
+}

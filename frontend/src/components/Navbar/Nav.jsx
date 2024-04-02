@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./Navbar.module.css";
+import styles from "./Navmodule.css";
 import Logo from "../../assets/contactLogo.png";
 import { useEffect } from "react";
 

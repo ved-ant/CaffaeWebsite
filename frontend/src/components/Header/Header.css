@@ -68,10 +68,12 @@
   background-image: url("../../assets/rectangle11.png");
   background-size: cover;
   margin-top: -25vh;
-  z-index: 5;
+  /* z-index: 5; */
   height: 100vh;
   padding-top: 6%;
   width: 100%;
+  position: relative;
+  z-index: 0;
 }
 .header-desc {
   color: #263045;
