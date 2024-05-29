@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import stl from "./team.module.css";
-import image1 from "../../assets/eshu.jpg";
+import image1 from "../../assets/pragat.jpeg";
 import image3 from "../../assets/gungun.png";
 import image4 from "../../assets/romil.jpeg";
 import image2 from "../../assets/vedant.jpeg";
@@ -18,7 +18,7 @@ const Team = () => {
               image={image4}
             ></TeamMember>
             <TeamMember
-              name="Eshu Kholi"
+              name="Pragat Pandey"
               role="Co-Founder"
               image={image1}
             ></TeamMember>
