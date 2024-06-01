@@ -11,7 +11,7 @@ const Section2 = () => {
       <h2 className={stl.head}>Perks of being a Guru at Caffae</h2>
       <div className={stl.cardsContainer}>
       <Card graphic={img1} heading='Social Backgiving' paragraph='By sharing the experiences and problems you faced, you can give back to the society and help the people in need.'> </Card>
-      <Card graphic={img2} heading='Monetize your experience' paragraph='On Caffae your experience will be valued. you can decide your own call charges and earn money per minute for every call you take. '> </Card>
+      <Card graphic={img2} heading='Monetize your experience' paragraph='On Caffae, your experience will be valued. You can decide your own call charges and earn money per minute for every call you take. '> </Card>
       <Card graphic={img3} heading='Increase your network' paragraph='By Guiding the People who are newcomers in your field you can increase your social network and also we will allow to share your other social medias on our platform.'> </Card>
       </div>
     </div>

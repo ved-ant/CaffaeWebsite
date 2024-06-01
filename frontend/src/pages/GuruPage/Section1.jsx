@@ -8,10 +8,10 @@ const Section1 = () => {
     <img src={img2} className={styl.gr} style={{position:'absolute'}}></img>
       <Step
         heading="Who is Guru?"
-        paragraph="A Guru is an experienced person in any field for ex. photography, JEE , Business and much more. He/She doesn’t need any degree or qualification in any field to guide someone. Just experience is enough and good communication skills are plus."
+        paragraph="A Guru is an experienced individual in any field, such as photography, JEE, business, and much more. They don’t need any degree or formal qualification in a specific field to guide someone. Experience alone is sufficient, and good communication skills are a plus."
       ></Step>
-      <Step heading='Why Caffae Needs Guru?' paragraph='Caffae needs Guru to Guide individuals in their respective field by sharing their experience and problems they once faced in their path so that people understand the field or interest they want to pursue.'></Step>
-      <Step heading='Responsibility of guru' paragraph='Guru’s responsibility will be to register on our platform and turn the toggle button to online whenever they want to take calls, accept the call from user, start sharing experience and earn the money for every minute you spend on call.'></Step>
+      <Step heading='Why Caffae Needs Guru?' paragraph='Caffae needs Gurus to guide individuals in their respective fields by sharing their experiences and the problems they once faced on their path. This helps people understand the field or interest they want to pursue.'></Step>
+      <Step heading='Responsibility of Guru' paragraph="The Guru's responsibility will be to register on our platform and toggle the button to 'online' whenever they want to take calls. They'll then accept the call from the user, share their experiences, and earn money for every minute spent on the call."></Step>
     </div>
   );
 };

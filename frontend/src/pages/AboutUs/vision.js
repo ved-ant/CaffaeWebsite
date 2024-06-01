@@ -12,10 +12,7 @@ const Vision = () => {
             personalized guidance in any field of interest without wasting time.
           </h2>
           <span className={stl.para}>
-            At our Platform both user and Guru will get benefits. Users can get
-            guidance from any guru at any time they want while Gurus will get
-            paid for every minute they spend on call and this way they can also
-            increase their network.
+          On our platform, both users and Gurus benefit. Users can get guidance from any Guru at any time, while Gurus get paid for every minute they spend on a call. This way, they can also increase their network.
           </span>
         </div>
         <div className={stl.right}>

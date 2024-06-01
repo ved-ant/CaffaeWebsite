@@ -77,7 +77,7 @@ const Footer = () => {
           <div class="Frame56">
             <div className="footer-social_section-social_handles">
               <a
-                href="https://www.linkedin.com/company/caffae/"
+                href="https://www.youtube.com/@Caffae_india"
                 className="footer-social_section-social_handles-handle"
                 target="_blank"
               >
@@ -111,10 +111,10 @@ const Footer = () => {
               <a href="/">Home</a>
             </div>
             <div class="AboutUs">
-              <a href="/aboutus">About us</a>
+              <a href="/aboutus">About Us</a>
             </div>
             <div class="Careeres">Careeres</div>
-            <div class="CaffaeCommunity">caffae community</div>
+            <div class="CaffaeCommunity">Caffae Community</div>
           </div>
           <div class="Frame54">
             <div class="ImportantLinks">Important links</div>
@@ -131,7 +131,7 @@ const Footer = () => {
       <div class="ContactUsCaffaeInGmailCom">
         <span class="gmail">Contact Us:</span>
         <span class="mail">
-          <a href="mailto:caffae.in@gmail.com">caffae.in@gmail.com</a>
+          <a href="mailto:caffae.in@gmail.com">&nbsp;caffae.in@gmail.com</a>
         </span>
       </div>
     </div>

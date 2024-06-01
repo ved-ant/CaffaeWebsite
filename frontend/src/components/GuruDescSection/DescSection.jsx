@@ -16,9 +16,9 @@ const GuruDescSection = () => {
   return (
     <div className='desc_section-container'>
 
-        <LeftDesc title="Monetize Your Experience" text="On Caffae your experience will be valued. you can decide your own call charges and earn money per minute for every call you take. " image1={Image3} image2={Image4} />
+        <LeftDesc title="Monetize Your Experience" text="On Caffae, your experience will be valued. You can decide your own call charges and earn money per minute for every call you take. " image1={Image3} image2={Image4} />
         <RightDesc title="Social Backgiving" text="By sharing the experiences and problems you faced, you can give back to the society and help the people in need." image1={Image5} image2={Image6} />
-        <LeftDesc title="Increase Your Network" text="You can expand your Social Network and followers by guiding the freshers through our platform . You can build your reputation and presentation skills" image1={Image7} image2={Image8} />
+        <LeftDesc title="Increase Your Network" text="You can expand your Social Network and followers by guiding the freshers through our platform. You can build your reputation and presentation skills." image1={Image7} image2={Image8} />
     </div>
   )
 }

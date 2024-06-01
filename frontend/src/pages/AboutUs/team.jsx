@@ -4,6 +4,9 @@ import image1 from "../../assets/pragat.jpeg";
 import image3 from "../../assets/gungun.png";
 import image4 from "../../assets/romil.jpeg";
 import image2 from "../../assets/vedant.jpeg";
+import image5 from "../../assets/anusha.jpeg";
+import image6 from "../../assets/vibhav.jpg"
+
 import borderImg from "./ellipse12.png";
 const Team = () => {
   return (
@@ -18,8 +21,8 @@ const Team = () => {
               image={image4}
             ></TeamMember>
             <TeamMember
-              name="Pragat Pandey"
-              role="Co-Founder"
+              name="Pragat Pandya"
+              role="Co-Founder & CTO"
               image={image1}
             ></TeamMember>
             <TeamMember
@@ -31,6 +34,16 @@ const Team = () => {
               name="Gungun Hindoja"
               role="Product Developer"
               image={image3}
+            ></TeamMember>
+            <TeamMember
+              name="Anusha Raghav"
+              role="Founding Team Member"
+              image={image5}
+            ></TeamMember>
+            <TeamMember
+              name="Srivibhav"
+              role="Founding Team Member"
+              image={image6}
             ></TeamMember>
           </div>
         </div>

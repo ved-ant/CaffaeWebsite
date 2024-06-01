@@ -23,7 +23,7 @@ function LeftForm() {
           <span>
             <img src={LocImg} alt="" />
           </span>
-          Bits Pilani pilani, rajasthan 333031, IN
+          Bits Pilani Pilani, Rajasthan 333031, IN
         </p>
         <p>
           <span>
